@@ -27,6 +27,7 @@ public class AccountActivity extends AppCompatActivity {
         Button btnAceptar = findViewById(R.id.btnAceptar);
         Button btnCancelar= findViewById(R.id.btnCancelar);
 
+        //rotulamiento de variables
         EditText edtFirstname = findViewById(R.id.edtFirstname);
         EditText edtLastname = findViewById(R.id.edtLastname);
         EditText edtEmail = findViewById(R.id.edtEmail);
