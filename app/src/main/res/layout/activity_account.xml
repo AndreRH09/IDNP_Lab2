@@ -47,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/edtLastname" />
 
     <EditText
-        android:id="@+id/edtTextPhone"
+        android:id="@+id/edtPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -69,7 +69,7 @@
         android:hint="Usuario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtTextPhone" />
+        app:layout_constraintTop_toBottomOf="@+id/edtPhone" />
 
     <EditText
         android:id="@+id/edtPassword2"
@@ -93,14 +93,14 @@
         app:layout_constraintTop_toBottomOf="@+id/edtPassword2">
 
         <Button
-            android:id="@+id/btnOK"
+            android:id="@+id/btnAceptar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Aceptar" />
 
         <Button
-            android:id="@+id/btnCancel"
+            android:id="@+id/btnCancelar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
